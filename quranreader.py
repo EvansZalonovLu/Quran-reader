@@ -1,13 +1,13 @@
 # Please install OpenAI SDK first: `pip3 install openai`
-import streamlit as st#县清真寺融媒体文章响应器
+#import streamlit as st
 import os
 from openai import OpenAI
 client = OpenAI(
-    api_key="sk-1dd8fb865ae84deb844b2f48ca95fdde",  
+    api_key="sk-1dd8fb865ae84deb8***************",  #your api token
     base_url="https://api.deepseek.com")
-FILE_PATH = "./伊斯兰教/quran-chinese.txt" 
+FILE_PATH = "./quran-chinese.txt" 
 
-#open fike to read
+#open file to read
 def read_file(path):
     with open(path, 'r', encoding='utf-8') as f:
         return f.read()
