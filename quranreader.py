@@ -60,6 +60,7 @@ def ask_deepseek(question, context):
 #adjust by the form from authority
 
 def main():
+    print("赛俩目！欢迎使用QuranReader!")
     print("📖 正在读取文件...")
     content = read_file(FILE_PATH)#read file actually
     print(f"✅ 读取完成，共 {len(content)} 个字符")
